@@ -1,0 +1,112 @@
+body{
+    background-color: #F5DF4D;
+    color: black;
+    font-family: "Italiana";
+    width: 1792px;
+    height: 1199px;
+    position: relative;
+}
+
+#header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 1366px;
+
+    position: absolute;
+    width: 1637px;
+    height: 161px;
+    left: 49px;
+    top: 0px;
+}
+#header .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    gap: 72px;
+
+    width: 1590px;
+    height: 57px;
+}
+
+#header .header-container .header-logo {
+    width: 212px;
+    height: 161px;
+}
+
+#header .header-container .container-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 48px;
+}
+
+#header .header-container .container-menu .menu-list {
+    float: left;
+}
+
+#header .header-container .container-menu .menu-list .menu-link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#header .header-container .container-shopcart {
+    width: 64px;
+    height: 64px;
+
+}
+
+#main-page .skate-shop {
+    font-size: 250px;
+    margin: 3%;
+    position: relative;
+}
+#main-logo .skate-shop .noco {
+    position: absolute;
+    width: 921px;
+    height: 702px;
+    left: 84px;
+    top: 92px;
+}
+
+#main-page .skate-shop .above-word {
+    position: absolute;
+    width: 679px;
+    height: 353px;
+    left: 49px;
+    top: 170px;
+}
+
+#main-page .skate-shop .below-word {
+    position: absolute;
+    width: 634px;
+    height: 353px;
+    left: 282px;
+    top: 402px;
+}
+
+#main-page .skate-shop .cool-dude {
+    position: absolute;
+    width: 514px;
+    height: 651px;
+    left: 1030px;
+    top: 353px;
+}
+
+#main-page .skate-shop .skateboard {
+    position: absolute;
+    width: 681px;
+    height: 681px;
+    left: 49px;
+    top: 632px;
+}
