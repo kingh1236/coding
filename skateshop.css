@@ -110,3 +110,33 @@ body{
     left: 49px;
     top: 632px;
 }
+
+#main-page .lab2-implement {
+    position: absolute;
+    right: 500px;
+    top: 300px;
+}
+
+#main-page .lab2-implement .user-scenario-photo-button {
+    width: 170px;
+    height: 80px;
+    border: none;
+    border-radius: 10%;
+}
+
+#main-page .lab2-implement .user-scenario-photo-button .link-to {
+    font-size: 20px;
+    color: black;
+}
+
+#main-page .lab2-implement .figma-design-button {
+    width: 170px;
+    height: 80px;
+    border: none;
+    border-radius: 10%;
+}
+
+#main-page .lab2-implement .figma-design-button .link-to {
+    font-size: 20px;
+    color: black;
+}
